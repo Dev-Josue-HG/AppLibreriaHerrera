@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             preferencesHelper.saveBoolean("estaLogueado", true);
             openActivity();
         } else {
-            Toast.makeText(this, "Usuario o contra", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Usuario o contraseña incorrectos", Toast.LENGTH_SHORT).show();
             preferencesHelper.saveBoolean("estaLogueado", false);
         }
 
