@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">LibreriaHerrera</string>
     <string name="Name">User</string>
+    <string name="itmProductos">Productos</string>
+    <string name="itmPedidos">Pedidos</string>
+    <string name="itmPerfil">Perfil</string>
 </resources>

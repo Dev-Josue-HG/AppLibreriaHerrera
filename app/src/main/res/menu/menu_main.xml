@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itmProductos"
+        android:title="@string/itmProductos"/>
+
+    <item
+        android:id="@+id/itmPedidos"
+        android:title="@string/itmPedidos"/>
+
+    <item
+        android:id="@+id/itmPerfil"
+        android:title="@string/itmPerfil"/>
 
 </menu>
