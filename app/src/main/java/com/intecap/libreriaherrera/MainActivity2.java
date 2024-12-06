@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity2 extends AppCompatActivity {
 
 
-    Button btnLogin;
+
 
     private PreferencesHelper preferencesHelper;
 
