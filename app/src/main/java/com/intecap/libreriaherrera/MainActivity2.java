@@ -29,25 +29,6 @@ public class MainActivity2 extends AppCompatActivity {
             return insets;
         });
 
-        preferencesHelper = new PreferencesHelper(this);
-
-        preferencesHelper.saveString("username", "Test");
-        preferencesHelper.saveString("password", "123");
-
-
-        btnLogin = findViewById(R.id.BtnLogin);
-
-
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-
-
-
-            }
-        });
-
     }
 
 
