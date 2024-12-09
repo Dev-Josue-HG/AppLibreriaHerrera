@@ -9,4 +9,6 @@
     <string name="lblNombre">Nombre</string>
     <string name="lblDireccion">Dirección</string>
     <string name="lblTelefono">Teléfono</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Precio">00.00</string>
 </resources>

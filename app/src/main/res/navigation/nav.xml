@@ -3,11 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav"
-    app:startDestination="@id/pagina_pefil">
+    app:startDestination="@id/pagina_producto">
 
     <fragment
         android:id="@+id/pagina_pefil"
         android:name="com.intecap.libreriaherrera.FragmentoPerfil"
         tools:layout="@layout/fragment_perfil"/>
+
+    <fragment
+        android:id="@+id/pagina_producto"
+        android:name="com.intecap.libreriaherrera.FragmentoProducto"
+        tools:layout="@layout/fragment_fragmento_producto"/>
 
 </navigation>
