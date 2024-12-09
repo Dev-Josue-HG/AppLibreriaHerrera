@@ -43,7 +43,9 @@ public class MainActivity2 extends AppCompatActivity {
         navView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                if(item.getItemId() == R.id.itmPerfil){
+                if(item.getItemId() == R.id.itmProductos){
+                    nvcControladorNavegacion.navigate(R.id.pagina_producto);
+                } else if (item.getItemId() == R.id.itmPerfil) {
                     nvcControladorNavegacion.navigate(R.id.pagina_pefil);
                 }
                 return true;
