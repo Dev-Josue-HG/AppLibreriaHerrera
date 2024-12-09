@@ -47,6 +47,8 @@ public class MainActivity2 extends AppCompatActivity {
                     nvcControladorNavegacion.navigate(R.id.pagina_producto);
                 } else if (item.getItemId() == R.id.itmPerfil) {
                     nvcControladorNavegacion.navigate(R.id.pagina_pefil);
+                } else if (item.getItemId() == R.id.itmPedidos){
+                    nvcControladorNavegacion.navigate(R.id.pagina_pedidos);
                 }
                 return true;
             }

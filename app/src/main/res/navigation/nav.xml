@@ -15,4 +15,9 @@
         android:name="com.intecap.libreriaherrera.FragmentoProducto"
         tools:layout="@layout/fragment_fragmento_producto"/>
 
+    <fragment
+        android:id="@+id/pagina_pedidos"
+        android:name="com.intecap.libreriaherrera.FragmentoPedido"
+        tools:layout="@layout/fragment_fragmento_pedido"/>
+
 </navigation>
